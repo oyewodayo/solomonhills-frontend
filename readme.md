@@ -1,0 +1,1 @@
+Solomonhills frontend made with pure html, css and javascript using bootstrap
