@@ -1,0 +1,513 @@
+.panel {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .panel-body {
+      padding: 15px;
+  }
+  .panel-heading {
+      padding: 10px 15px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+  }
+  .panel-heading > .dropdown .dropdown-toggle {
+      color: inherit;
+  }
+  .panel-title {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 16px;
+      color: inherit;
+  }
+  .panel-title > .small,
+  .panel-title > .small > a,
+  .panel-title > a,
+  .panel-title > small,
+  .panel-title > small > a {
+      color: inherit;
+  }
+  .panel-footer {
+      padding: 10px 15px;
+      background-color: #f5f5f5;
+      border-top: 1px solid #ddd;
+      border-bottom-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+  }
+  .panel > .list-group,
+  .panel > .panel-collapse > .list-group {
+      margin-bottom: 0;
+  }
+
+  /*====================================
+  =            global-style            =
+  ====================================*/
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+  a:focus {
+    outline: none;
+    color:#ffffff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+    color:#ffffff;
+  
+  }
+
+  ul {
+    list-style: none;
+  }
+  .nav-pills>li>a {
+      border-radius: 4px;
+  }
+  .nav>li>a {
+      position: relative;
+      display: block;
+      padding: 10px 15px;
+  }
+  .mwb-article-section__entry-content p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-weight: 300;
+    -webkit-font-size: 16px;
+    -moz-font-size: 16px;
+    -ms-font-size: 16px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .mwb-article-section__content-wrap {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+  }
+  .mwb-article-section__content-wrap:last-child {
+    border-bottom: none;
+  }
+  .mwb-article-section__content-wrap h2 {
+    color: #00BCD4;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .mwb-article-section__sidebar {
+    border: 1px solid #ffffff;
+    display: block;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .mwb-article-section__sidebar li a {
+    color: #333;
+  }
+  
+  .mwb-article-section__sidebar li a:hover {
+    background: linear-gradient(to right, #4f86f7 0%, #4f86f7 100%) repeat scroll 0 0 !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    color: #ffffff;
+  }
+
+  .mwb-article-section__sidebar li a:active {
+    background: linear-gradient(to right, #4f86f7 0%, #4f86f7 100%) repeat scroll 0 0 !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    color: #000000;
+  }
+  .mwb-article-section__sidebar li.active a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%) repeat scroll 0 0 !important;
+  }
+  .mwb-article-section__sidebar.affix {
+    width: 27%;
+  }
+
+  #myScrollspy, .position-sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 65px;
+  }
+
+
+  .mwb-error-page__content {
+    padding-top: 180px;
+    padding-left: 60px;
+  }
+  .mwb-error-page__content h2 {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-size: 54px;
+    -moz-font-size: 54px;
+    -ms-font-size: 54px;
+    font-size: 54px;
+    margin-bottom: 34px;
+    font-weight: bold;
+    color: #00BCD4;
+  }
+  .mwb-error-page__content p {
+    -webkit-font-size: 19px;
+    -moz-font-size: 19px;
+    -ms-font-size: 19px;
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  /*=====  End of 404-page-section  ======*/
+
+  .mwb-feature-section__para {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    -webkit-font-size: 14px;
+    -moz-font-size: 14px;
+    -ms-font-size: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+    line-height: 26px;
+  }
+
+  /*=====  End of feature-section  ======*/
+  /*===================================
+  =            faq-section            =
+  ===================================*/
+  .mwb_faq_section h1 {
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 55px;
+    -webkit-font-size: 30px;
+    -moz-font-size: 30px;
+    -ms-font-size: 30px;
+    font-size: 30px;
+  }
+  .mwb_faq_section__paragarph {
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* -webkit-font-size: 19px;
+    -moz-font-size: 19px;
+    -ms-font-size: 19px; */
+    /* font-size: 19px; */
+    line-height: 8rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .panel-body div {line-height: 1.25;}
+  .mwb_faq_section h4 {
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%) repeat scroll 0 0;
+  }
+  .mwb_faq_section h4 a {
+    display: block;
+    position: relative;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 18px;
+  }
+  .mwb_faq_section h4 a:hover{
+    display: block;
+    position: relative;
+    color: #ffffff;
+    background-color: #4f86f7;
+    padding: 18px;
+  }
+  .mwb_faq_section h4 .plusminus:after {
+    position: absolute;
+    content: "";
+    background: #000000;
+    text-align: center;
+    /* margin: 10px 10px 10px 10px; */
+    align-items: center;
+    height: 19px;
+    width: 3px;
+    right: 25px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    border-radius: 22px;
+  }
+  .mwb_faq_section h4 .plusminus:before {
+    position: absolute;
+    content: "";
+    background: #000000;
+    /* margin: 10px 10px 10px 20px; */
+    /* justify-content: center;
+    */
+    align-items: center;
+    height: 19px;
+    width: 3px;
+    right: 25px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    border-radius: 22px;
+    transform: rotate(90deg);
+  }
+  .mwb_faq_section__para {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px !important;
+    -webkit-font-size: 14px;
+    -moz-font-size: 14px;
+    -ms-font-size: 14px;
+    font-size: 14px;
+    line-height: 5;
+    margin-top: 0 !important;
+  }
+  .mwb_faq_section__para-wrap {
+    background: #efefef;
+  }
+  .mwb_faq_section .panel {
+    margin-bottom: 30px;
+  }
+  .mwb_faq_section .panel .panel-heading {
+    padding: 0;
+  }
+  .mwb_faq_section__accordian-heading {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .mwb_faq_section #myScrollspy {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 64px;
+  }
+
+  /*=====  End of faq-section  ======*/
+  /*=============================================
+  =            combined-article-page            =
+  =============================================*/
+  .mwb_combined_sidebar#myScrollspy {
+    height: 85vh;
+    overflow-y: scroll;
+  }
+  /*=====  End of combined-article-page  ======*/
+  /*===================================
+  =            media-query            =
+  ===================================*/
+  @media only screen and (max-width: 1280px) {
+    /*========================================
+      =            category-section            =
+      ========================================*/
+    .mwb-admin-wrap__list-content {
+      margin-right: -70px;
+    }
+
+    /*=====  End of category-section  ======*/
+  }
+  @media only screen and (max-width: 992px) {
+    /*==========================================
+    =            navigation-section            =
+    ==========================================*/
+    .mwb-navigation {
+      background: transparent !important;
+      border-bottom: 0 !important;
+    }
+    .mwb-navigation__nav-list li a {
+      -webkit-font-size: 12px;
+      -moz-font-size: 12px;
+      -ms-font-size: 12px;
+      font-size: 12px;
+    }
+
+    /*=====  End of navigation-section  ======*/
+    /*================================
+    =            404-page            =
+    ================================*/
+    .mwb-error-page__content {
+      padding-top: 30px;
+    }
+
+    /*=====  End of 404-page  ======*/
+    /*=======================================
+    =            contact-section            =
+    =======================================*/
+    .mwb-form-wrapper {
+      margin-top: 30px !important;
+    }
+
+    /*=====  End of contact-section  ======*/
+    /*========================================
+    =            category-section            =
+    ========================================*/
+    .mwb-admin-wrap__list-content {
+      margin-right: 0;
+    }
+
+    /*=====  End of category-section  ======*/
+  }
+  @media only screen and (max-width: 800px) {
+    /*==========================================
+    =            navigation-section            =
+    ==========================================*/
+    .mwb-navigation__nav-list li a {
+      padding: 8px 13px;
+    }
+
+    /*=====  End of navigation-section  ======*/
+  }
+  @media only screen and (max-width: 767px) {
+    /*==========================================
+    =            navigation-section            =
+    ==========================================*/
+    .mwb-navigation .navbar-collapse {
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 100%) repeat scroll 0 0;
+      text-align: left;
+    }
+    .mwb-navigation .navbar-collapse ul {
+      float: none !important;
+    }
+    .mwb-navigation .navbar-collapse ul .dropdown-menu li a {
+      color: #ffffff !important;
+    }
+    .mwb-navigation .navbar-toggle:hover {
+      background: transparent;
+    }
+    .mwb-navigation .navbar-toggle:focus {
+      background: transparent;
+    }
+    .mwb-navigation .navbar-toggle .icon-bar {
+      background-color: #ffffff !important;
+    }
+
+  /*=====  End of navigation-section  ======*/
+  /*========================================
+  =            features-section            =
+  ========================================*/
+  .mwb-feature-section__content {
+    padding: 25px;
+  }
+
+  /*=====  End of features-section  ======*/
+  /*================================
+  =            404-page            =
+  ================================*/
+  .mwb-error-page__content {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .mwb-error-page__error-img {
+    margin-top: 30px;
+  }
+
+  /*=====  End of 404-page  ======*/
+  /*=======================================
+    =            article-section            =
+    =======================================*/
+  .mwb-article-section .dist-menu-tab-fix {
+    display: none;
+  }
+  .mwb-article-section .dist-menu-tab-fix.cloned {
+    display: none !important;
+  }
+  .mwb-article-section__outer-list {
+    padding: 0;
+  }
+  .position-fixed{position: fixed;}
+
+
+
+  /*=====  End of article-section  ======*/
+  /*===================================
+  =            faq-section            =
+  ===================================*/
+  .mwb_faq_section .dist-menu-tab-fix.original {
+    display: none !important;
+  }
+  .mwb_faq_section .dist-menu-tab-fix.cloned {
+    display: none !important;
+  }
+  .mwb_faq_section h1 {
+    -webkit-font-size: 26px;
+    -moz-font-size: 26px;
+    -ms-font-size: 26px;
+    font-size: 26px;
+  }
+
+  /*=====  End of faq-section  ======*/
+  /*======================================
+  =            footer-section            =
+  ======================================*/
+  .mwb-footer__icon-wrap {
+    float: none !important;
+    text-align: center;
+  }
+  .mwb-footer__icon-wrap a {
+    margin-left: 10px;
+    -webkit-font-size: 12px;
+    -moz-font-size: 12px;
+    -ms-font-size: 12px;
+    font-size: 12px;
+  }
+  .mwb-footer p {
+    -webkit-font-size: 13px;
+    -moz-font-size: 13px;
+    -ms-font-size: 13px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+
+  /*=====  End of footer-section  ======*/
+  #myScrollspy,
+  .position-sticky {
+    position: static !important;
+  }
+}
+/*=====  End of media-query  ======*/
+@media only screen and (max-width: 480px) {
+/*====================================
+=            main-section            =
+====================================*/
+.mwb-main-page__heading {
+-webkit-font-size: 33px;
+-moz-font-size: 33px;
+-ms-font-size: 33px;
+font-size: 33px;
+}
+.mwb-main-page__paragraph {
+padding: 10px;
+}
+
+/*=====  End of main-section  ======*/
+/*=================================
+=            home-page            =
+=================================*/
+.mwb-install-section__menu a {
+-webkit-font-size: 12px;
+-moz-font-size: 12px;
+-ms-font-size: 12px;
+font-size: 12px;
+}
+
+.mwb-support-section__heading {
+-webkit-font-size: 22px;
+-moz-font-size: 22px;
+-ms-font-size: 22px;
+font-size: 22px;
+}
+
+/*=====  End of home-page  ======*/
+}

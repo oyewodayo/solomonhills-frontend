@@ -1,0 +1,270 @@
+/*================================================================================
+	Item Name: SolomonHills
+	Version: 1.0
+	Author: TEMIDAYO
+	Author URL: http://temidayo.me
+================================================================================
+
+NOTE:
+------
+© TEMIDAYO.  */
+.card-height{height: 33.3em;}
+h2 {font-size: 20px;}
+.line-through {text-decoration: line-through;}
+
+.strike-through {text-decoration: line-through;}
+
+.shills-bg-primary {background-color: #22577A}
+
+.account-home-card {height: 26.5em}
+.account-home-balance {padding-top: 100px}
+.account-home-button {margin-top: 87px}
+.bulletin {color: #42587a}
+.bulletin .megaphone {border: 1px solid grey;border-radius: 5px;padding: 6px;width: 250px}
+#savings-grid-items {
+    margin: 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#clockdiv{
+    font-family: sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 900;
+    text-align: center;
+    font-size: 10px;
+}
+#clockdiv > div{
+    padding: 3px;
+    margin-bottom:5px;
+    border-radius: 3px;
+    /* background: #4f86f7; */
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 5px;
+    border-radius: 3px;
+    /* background: #4f86f7; */
+    display: inline-block;
+}
+.smalltext{
+    padding-top: 5px;
+    font-size: 8px;
+}
+#text-offwhite{color:#E2DFD2}
+.btn-free{border-top-left-radius:0px;border-bottom-left-radius:0px;margin-top:-1px;margin-left:-8px;z-index: 2;width:170px;font-size:12px;padding-left:-15px;padding-right:-15px}
+
+.first-screen-img{
+    padding-top:60px;
+    background-image: url(/images/Nigeria_1.svg);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size:35%;
+    /* animation: rotation 2s infinite linear; */
+}
+.how-it-works{min-height: 16em;}
+
+.product-disc:hover{
+    background-color: #011b33;
+    color: #ffffff;
+}
+/* .product-disc-header:hover{
+    background-color: #EBF1FE;
+    color: #ffffff;
+} */
+@keyframes rotation{
+    from {transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
+.underline-dotted{
+    border-bottom: 1.5px dotted #000;text-decoration: none;
+}
+.underline-dashed{
+    border-bottom: 1.5px dashed #000;text-decoration: none;
+}
+.financials{min-height: 24em;max-height: 24em;}
+.divi-home{min-height: 24em;background-image: url('/img/bg-pattern-shapes.png');}
+.cooperative-home{min-height: 24em;}
+.cooperative-balance{padding-top: 40px;}
+.divi-balance{padding-top: 100px;}
+.divi-dashboard{min-height: 34.5em}
+.divi-dashboard-balance{padding-top: 100px}
+.referral-invite{min-height: 24em;}
+.loan-card{min-height: 32em;}
+.transfer-card{min-height: 34.5em}
+.transfer-card-button{position: absolute;bottom:20px}
+.quick-product-shortcut{
+    height: 3rem;
+    margin-bottom: 10px;
+    padding:10px 6px 10px 5px;
+    border-radius: 00.35rem;
+    /* border-top-left-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; */
+    border: 0;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(34 39 46 / 15%);
+    background-color: #ffffff
+}
+@media (max-width: 575.98px) {
+    .account-home-card {
+        height: 20.5em
+    }
+    .card-height{height: 24.5em;}
+    .cooperative{min-height: 10em;}
+    .financials{min-height: 18em;max-height: 18em;}
+    .divi-home{min-height: 14em;}
+    .divi-balance{padding-top: 40px;}
+    .cooperative-home{min-height: 20em;}
+    .cooperative-balance{padding-top: 10px;}
+    .divi-dashboard{min-height: 22em}
+    .divi-dashboard-balance{padding-top: 60px}
+    .referral-invite{min-height: 22em;}
+    .account-home-balance {
+        padding-top: 30px
+    }
+    .loan-card{min-height: 26em;}
+    .transfer-card{min-height: 27em}
+    .transfer-card-button{position: absolute;bottom:10px;}
+    .account-home-button {
+        margin-top: 40px
+    }
+    #savings-grid-items {
+        height: 100px;
+        margin: 3px;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .card-height{height: 24.5em;}
+    .financials{height: 15em;}
+    .loan-card{min-height: 26em;}
+    .transfer-card{min-height: 28em}
+    .transfer-card-button{position: absolute;bottom:10px;}
+    .bulletin h2 {
+        font-size: 20px;
+        font-weight: bold
+    }
+    .bulletin span {
+        font-size: 12px
+    }
+    .account-home-card {
+        height: 20.5em
+    }
+    .account-home-balance {
+        padding-top: 30px
+    }
+    .account-home-button {
+        margin-top: 40px
+    }
+}
+.clipboardCopied{
+    border:1px solid #00CFDD;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(79, 134, 247, 1);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.cursor-pointer{cursor: pointer;}
+.font-size-9{font-size: 9px;}
+.font-size-10{font-size: 10px;}
+.font-size-11{font-size: 11px;}
+.font-size-12{font-size: 12px;}
+.font-size-13{font-size: 13px;}
+.font-size-14{font-size: 14px;}
+.font-size-15{font-size: 15px;}
+.font-size-16{font-size: 16px;}
+.font-size-17{font-size: 17px;}
+.font-size-18{font-size: 18px;}
+.font-size-19{font-size: 19px;}
+.font-size-20{font-size: 20px;}
+.font-size-21{font-size: 21px;}
+.font-size-22{font-size: 22px;}
+.font-size-23{font-size: 23px;}
+.font-size-24{font-size: 24px;}
+.font-size-25{font-size: 25px;}
+.font-size-30{font-size: 30px;}
+.font-size-35{font-size: 35px;}
+.font-size-40{font-size: 40px;}
+.font-size-45{font-size: 45px;}
+.font-size-50{font-size: 50px;}
+.home-activity:hover{border: 1px solid rgba(79, 134, 247, 1);border-radius:5px; margin-bottom:10px; padding:5px}
+.home-activity:hover .bxs-check-circle{color:rgba(79, 134, 247, 1)}
+.text-bold-600{font-weight: 600;}
+.text-bold-900{font-weight: 900;}
+.font-size-28{font-size: 28px;}
+.letter-spacing-2{letter-spacing: 2px;}
+.letter-spacing-3{letter-spacing: 3px;}
+.letter-spacing-4{letter-spacing: 4px;}
+.letter-spacing-5{letter-spacing: 5px;}
+.line-height-1-7{line-height: 1.7;}
+.line-height-1-5{line-height: 1.5;}
+.line-height-1{line-height: 1;}
+.line-height-1-1{line-height: 1.1;}
+.line-height-1-2{line-height: 1.2;}
+.line-height-1-3{line-height: 1.3;}
+.line-height-1-4{line-height: 1.4;}
+.line-height-2{line-height:2;}
+.min-height-12em{min-height: 12em};
+#font-size-12{font-size: 12px;}
+.margin-top-1n{margin-top: -1px}
+.margin-top-2n{margin-top: -2px}
+.margin-top-3n{margin-top: -3px}
+.margin-top-4n{margin-top: -4px}
+.margin-top-5n{margin-top: -5px}
+.margin-top-6n{margin-top: -6px}
+.margin-top-7n{margin-top: -7px}
+.margin-top-8n{margin-top: -8px}
+.margin-top-9n{margin-top: -9px}
+.margin-top-10n{margin-top: -10px}
+.margin-left-n6{margin-left:-6px;}
+.margin-left-n10{margin-left:-10px}
+.margin-top-3{margin-top: 3px;}
+.margin-top-4{margin-top: 4px;}
+.margin-top-5{margin-top: 5px;}
+.margin-top-6{margin-top: 6px;}
+.margin-top-7{margin-top: 7px;}
+.margin-top-8{margin-top: 8px;}
+.margin-top-9{margin-top: 9px;}
+.margin-top-10{margin-top: 10px;}
+.margin-top-5{margin-top: 5px;}
+.margin-top-50{margin-top: 50px;}
+.margin-top-55{margin-top: 55px;}
+.margin-top-150{margin-top: 150px;}
+.margin-bottom-50{margin-bottom: 50px;}
+.margin-bottom-55{margin-bottom: 55px;}
+.margin-bottom-100{margin-bottom: 100;}
+.border-radius-5{border-radius: 5px;}
+.border-radius-10{border-radius: 10px;}
+.border-radius-15{border-radius: 15px;}
+.border-bottom-primary{border-bottom: 2px solid rgba(79, 134, 247, 1);}
+.rounded-fit{border-radius: 100%;width:50px;height:50px;object-fit:cover}
+.product-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  z-index: 10;
+  opacity: 1;
+  border: none;
+  transition: 0.4s ease-out;
+  /* box-shadow: 4px 4px 5px 5px #eaeaea; */
+  color: #222222;
+}
+.testimonials{position: relative;background-repeat: no-repeat;background-size: cover;padding:80px 0;font-family:'Poppins', sans-serif}
+.testimonials::before{content:'';position: absolute;right:0;left:0;top:0;bottom:0;background: #eef2f5;}
+.testimonials .title {margin-bottom: 50px;position: relative;max-width: 600px;margin: 20px 0px 20px 0px;}
+.testimonials .title h5 {color: #4f86f7;line-height: 1.2em;font-size: 18px;font-weight: 900;margin-bottom: -3px;}
+.testimonials .title h2 {color: #011b33;line-height: 1.2em;font-weight: 900;font-size: 41px;letter-spacing: -1px;margin:0}
+.testimonials .title img {margin-top: -10px;}
+.testimonials .title p {margin: 0 0 10px;margin-bottom: 0;color: #011b33;}
+.testimonials .testi .item {background: #fff;padding: 50px 30px;border-radius:15px;}
+.testimonials .testi .item .profile {display:flex;padding-left: 15px;}
+.testimonials .testi .item .profile img {border-radius: 100%;width:50px;height:50px;object-fit:cover}
+
+.testimonials .testi .item .profile .information {padding-left:20px;margin-bottom:15px}
+.testimonials .testi .item .profile .information .stars i {color:#eef2f5}
+.testimonials .testi .item .profile .information p {font-size: 24px;margin: 0px auto 0px;color: #011b33;font-weight: 900;line-height: 1;}
+.testimonials .testi .item .profile .information span {color: #4f86f7;font-weight: bold;margin-top: -4px;line-height: 1.6em;font-size: 14px;}
+.testimonials .testi .item>p {margin-bottom: 15px;font-size: 16px;line-height: 1.6em;display: block;z-index: 2;color: inherit;}
+.testimonials .testi .item .icon {text-align: center;}
+.testimonials .testi .item .icon i {font-size: 32px;color: #eef2f5;}
